@@ -5,4 +5,4 @@
 * Sue Sampson
 
 
-CSD 340 - bioSite - Biographical Site. 
+CSD 340 - Biographical Site - Subject: Angelica
