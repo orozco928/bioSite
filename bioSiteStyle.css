@@ -3,7 +3,8 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: Montserrat, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
 }
 
 #container{
@@ -102,4 +103,9 @@ h2{
     margin: 1%;
     width: 48%;
     text-align: center;
+}
+
+p {
+    margin: 2% 1% 2%;
+    line-height: 130%;
 }
