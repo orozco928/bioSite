@@ -4,13 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #container{
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(255, 242, 118, 0.4), rgba(255, 208, 70, 0.4)), url(images/mexico-street.jpg);
+    background-image: linear-gradient(rgba(255, 242, 118, 0.45), rgba(255, 208, 70, 0.45)), url(images/mexico-street.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -55,13 +55,22 @@ nav {
     color: white;
 }
 
-#active {
+#active.nav1 {
+    border-bottom: 5px solid #F26419;
+}
+
+#active.nav2 {
     border-bottom: 5px solid #0081A7;
+}
+
+#active.nav3 {
+    border-bottom: 5px solid #ED254E;
 }
 
 h2{
     text-align:center;
     margin: 16px 8px;
+    font-size: 32px;
 }
 
 .image-on-left-section{
@@ -108,4 +117,5 @@ h2{
 p {
     margin: 2% 1% 2%;
     line-height: 130%;
+    font-size: 20px;
 }
